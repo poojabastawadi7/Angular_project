@@ -1,0 +1,24 @@
+<hello ></hello>
+
+<table>
+  
+    <tr>
+      <th *ngFor ="let row of headers">
+        {{ row }}
+      </th>
+        
+    </tr>
+  
+  
+    
+    <tr *ngFor = "let info of employee">
+      <td *ngFor = "let row of headers">
+        {{ info[row] }}
+      </td>
+      
+    </tr>
+  
+</table>
+
+
+

@@ -1,0 +1,14 @@
+p
+ { font-family: Lato; }
+ 
+table 
+{
+    text-align: center;
+    width: 80%;
+    border: 1px solid;
+    margin-left: 10%;
+  }
+tr,td,th
+{
+     border: 0.5px solid;
+   }
